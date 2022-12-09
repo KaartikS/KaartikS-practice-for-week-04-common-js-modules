@@ -1,4 +1,6 @@
+module.exports.giveMessageToMrsPotato = giveMessageToMrsPotato;
 
+const sayHelloTo = require('./say-hello-to').sayHelloTo;
 
 function giveMessageToMrsPotato(message) {
   sayHelloTo("Mrs. Potato");
